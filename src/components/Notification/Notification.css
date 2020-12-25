@@ -1,0 +1,253 @@
+/* screan */ 
+.banner{
+    width:100%;
+  }
+  
+  .Account-Hub-Section-Banner {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top:0;
+    left:0;
+    object-fit: contain;
+  }
+  .group-section{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      width:100%;
+      margin-top:50px
+  
+  }
+  .group-section .options-section {
+    width: 284px;
+    max-height: 580px !important;
+    padding-top:10px;
+    padding-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 40px 0 rgba(94, 92, 154, 0.06);
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+  }
+  .group-section .options-section  .options-section-item{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .group-section .options-section  .options-section-item-2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .group-section .options-section  .options-section-item-2 .choice-item {
+      height: 15px;
+      margin: 15px 0 15px 30px;
+      font-family: NotoKufiArabic;
+      font-size: 12px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 2.33;
+      letter-spacing: normal;
+      text-align: right;
+      color: #3e3f5e;
+  }
+  .group-section .options-section  .options-section-item-2 .choice-item.active{
+    color: #00c7d9;
+  }
+  .group-section .options-section  .options-section-item .options-section-item-title{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: NotoKufiArabic;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: normal;
+    text-align: right;
+    color: #3e3f5e;
+    align-items: center;
+  } 
+  .group-section .options-section  .options-section-item .options-section-item-title span{
+    padding: 10px;
+  }
+  .Minus-Icon {
+    width: 8px;
+    height: 2px;
+    margin-left: 20px;
+    margin-top: 5px;
+    object-fit: contain;
+  }
+  .Plus-Icon {
+    width: 8px;
+    height: 8px;
+    margin-left: 20px;
+    margin-top: 5px;
+    object-fit: contain;
+  }
+  .Profile-Icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    position: relative;
+    top:5px;
+    object-fit: contain;
+  }
+  .group-section .options-section  .options-section-item .options-section-item-description{
+      font-family: NotoKufiArabic;
+      padding: 0px 50px;
+      font-size: 10px;
+      margin-top: -20px;
+      font-weight: normal;
+      text-align: right;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.6;
+      letter-spacing: normal;
+      text-align: right;
+      color: #9192a6;
+  }
+  .group-section .Divider {
+    width: 284px;
+    height: 1px;
+    margin: 28.5px 0 0;
+    background-color: #eaeaf5;
+  }
+  .group-section .section-content{
+    display: flex;
+    flex-direction: column;
+    flex: 4;
+    margin-right: 40px;
+  }
+  .group-section .section-content .section-content-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .group-section .section-content .section-content-header .primary-title{
+    font-family: NotoKufiArabic;
+    font-size: 26px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.85;
+    letter-spacing: normal;
+    text-align: right;
+    color: #3e3f5e;
+  }
+  .group-section .section-content .section-content-header .header-choice{
+      margin-right:20px;
+      font-family: NotoKufiArabic;
+      font-size: 12px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.67;
+      letter-spacing: normal;
+      text-align: left;
+      color: #afb0c0;
+  }
+  .group-section .section-content .section-content-header .header-choice.active{
+    color: #3e3f5e;
+  }
+  .group-section .section-content .section-content-notifications{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      margin-top: 20px;
+  }
+  .group-section .section-content .section-content-notifications .notification-card{
+    width:100%;
+    height: 88px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 0 40px 0 rgba(94, 92, 154, 0.06);
+    background-color: #ffffff;
+    margin-bottom: 12px;
+  }
+  .group-section .section-content .section-content-notifications .notification-card .notification-content{
+    display: flex; 
+  }
+  .group-section .section-content .section-content-notifications .notification-card .Rectangle-1384 {
+    width: 44px;
+    height: 44px;
+    margin-right: 10px;
+    margin-left:5px;
+    border-radius: 8px;
+    background-color: #118ab2;
+  }
+  .group-section .section-content .section-content-notifications .notification-card .notification-details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 10px;
+    margin-top: 3px;
+  }
+  .group-section .section-content .section-content-notifications .notification-card .notification-details .notification-action{
+    font-family: NotoKufiArabic;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: right;
+    color: #3e3f5e;
+  }
+  .group-section .section-content .section-content-notifications .notification-card .notification-details .notification-time{
+    font-family: NotoKufiArabic;
+    font-size: 10px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: right;
+    color: #9192a6;
+  }
+  .group-section .section-content .section-content-notifications .notification-card .Activity-Icon{
+    width: 20px;
+    height: 20px;
+    object-fit: contain; 
+    margin: 20px;
+  }
+  .Love {
+    width: 19px;
+    height: 20px;
+    margin:5px;
+    display: inline-block;
+    position: relative;
+    top:10px;
+    object-fit: contain;
+  }
+  .cover-like{
+    width: 20px;
+    height: 20px;
+    margin:5px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:10px;
+    border-radius: 50%;
+    background-color: #00c7d9;
+    object-fit: contain;
+  }
+  .Thumbs-Up {
+    display: block;
+    width: 14px;
+    margin: auto;
+    height: 15px;
+    border-radius: 50%;
+    object-fit: contain;
+  }

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 23 24">
+    <defs>
+        <linearGradient id="5idfbd3qoa" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0"/>
+            <stop offset="1" stop-color="#fff"/>
+        </linearGradient>
+    </defs>
+    <g>
+        <g>
+            <g transform="translate(2 2)">
+                <ellipse cx="9.5" cy="10" fill="#fd305b" rx="9.5" ry="10"/>
+                <path d="M9.5 20A9.76 9.76 0 0 0 19 10 9.76 9.76 0 0 0 9.5 0 9.76 9.76 0 0 0 0 10a9.76 9.76 0 0 0 9.5 10z" transform="rotate(180 9.5 10)" style="mix-blend-mode:overlay;isolation:isolate" fill="url(#5idfbd3qoa)" opacity="0.6"/>
+            </g>
+            <path fill="#fff" d="M644.755 843.156l3.555 4.5a.786.786 0 0 0 1.29 0l3.554-4.5a3.389 3.389 0 0 0-.008-4.292 2.4 2.4 0 0 0-3.707-.022l-.481.466-.482-.467a2.4 2.4 0 0 0-3.707.022 3.391 3.391 0 0 0-.014 4.293z" transform="translate(2 2) translate(-639.445 -833)"/>
+        </g>
+        <g fill="none" stroke-linejoin="round">
+            <path d="M0 10a9.76 9.76 0 0 0 9.5 10A9.759 9.759 0 0 0 19 10 9.76 9.76 0 0 0 9.5 0 9.76 9.76 0 0 0 0 10z" transform="translate(2 2) rotate(180 9.5 10)"/>
+            <path fill="#fff" d="M9.5 0C4.254 0 0 4.478 0 10c0 5.523 4.254 10 9.5 10 5.247 0 9.5-4.477 9.5-10 0-5.522-4.253-10-9.5-10m0-2c3.091 0 5.992 1.261 8.168 3.552C19.817 3.814 21 6.814 21 10c0 3.186-1.183 6.187-3.332 8.449C15.492 20.739 12.59 22 9.5 22c-3.091 0-5.992-1.261-8.167-3.551C-.817 16.187-2 13.186-2 10s1.184-6.186 3.333-8.448C3.508-.738 6.409-2 9.5-2z" transform="translate(2 2) rotate(180 9.5 10)"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,143 @@
+.header {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    z-index: 10;
+    background-color: #118ab2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.divider {
+    width: 1px;
+    height: 32px;
+    margin: 0 26px 0 28px;
+    background-color: #227c9d;
+}
+
+/* Header Actions*/ 
+.header .header-actions{
+    display: flex;
+    padding-left: 30px;
+}
+.header .header-actions .settings-5-line {
+    width: 24px;
+    height: 24px;
+    margin: 4px 28px 4px 0;
+    object-fit: contain;
+}
+
+
+.header .header-actions .alert-notification{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -4px;
+   
+}
+.header .header-actions .alert-notification .Alert-Detail {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #ffd166;
+    position: relative;
+    left:-15px;
+    top:5px
+}
+.header .header-actions  .alert-notification .notification-2-line {
+    width: 21.9px;
+    height: 21.9px;
+    object-fit: contain;
+}
+
+.header .header-actions .question-answer-line {
+    width: 22.9px;
+    height: 22.9px;
+    margin: 5.1px 24px 4px 25.3px;
+    object-fit: contain;
+}
+.header .header-actions .eye-line {
+    width: 24px;
+    height: 24px;
+    margin: 4px 76px 4px 24px;
+    object-fit: contain;
+}
+
+
+/* Header Search*/ 
+.header-search {
+  width: 410px;
+  height: 52px;
+  text-align: right;
+  margin: 0 200px 0 190px;
+  padding-right: 10px;
+  border: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 8px;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+.header-search .search-line {
+    width: 24px;
+    height: 24px;
+    flex:1;
+    object-fit: contain;
+}
+.header-search input{
+    border:0px;
+    flex: 4;
+    text-align:right;
+    padding:0px;
+    width:calc(100%-30px);
+}
+.header-search input:focus{
+    border: 0px;
+    outline: none;
+}
+
+
+/* Header Aboutus */
+.header-aboutus a{
+    width: 38px;
+    height: 15px;
+    margin: 0 39px 0 0;
+    font-family: NotoKufiArabic;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: right;
+    color: #ffffff;
+  }
+
+/* Header title */
+.header-title{
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    
+}
+.header-title .Path-5150 {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    object-fit: contain;
+}
+.header-title h1{
+    width: 150px;
+    height: 33px;
+    font-family: BradleyHandITCTT;
+    font-size: 26px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #ffffff;
+  }

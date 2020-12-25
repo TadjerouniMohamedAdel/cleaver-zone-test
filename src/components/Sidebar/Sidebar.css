@@ -1,0 +1,182 @@
+.sidebar {
+    height: 100%;
+    width: 260px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 80px; 
+    right: 0;
+    overflow-x: hidden; 
+    width: 300px;
+    padding: 0 0 528px;
+    box-shadow: 0 0 40px 0 rgba(94, 92, 154, 0.06);
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;  
+}
+.sidebar .bondeau{
+    width: 100%;
+    height: 76px;
+    background-color: #073b4c;
+      
+}
+.Rectangle-5 {
+    width: 130px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+.Rectangle-4{
+    width: 112px;
+    height: 112px;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #118ab2;
+}
+.Rectangle-3{
+    width: 104px;
+    height: 104px;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background-color: #ffffff;
+} 
+.Rectangle-2{
+    width: 96px;
+    height: 96px;
+    border-radius: 3px;
+    background-color: #118ab2;
+}
+.sidebar .profile{
+    z-index: 10;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:-50px
+}
+.sidebar .profile .profile-title{
+        margin: 0 0 8.1px;
+        font-family: NotoKufiArabic;
+        font-size: 17.9px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        text-align: center;
+        color: #3e3f5e;
+}
+.sidebar .profile .profile-job {
+    font-family: NotoKufiArabic;
+    font-size: 10.9px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.72;
+    letter-spacing: normal;
+    text-align: center;
+    color: #afb0c0;
+}
+.sidebar .profile-badges{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top:25px;
+}
+.sidebar .profile-badges .profile-badges-item{
+    margin:5px;
+} 
+.sidebar .profile-overviews{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 10px;
+}
+.sidebar .profile-overviews .profile-overviews-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:20px;
+}
+.sidebar .profile-overviews .profile-overviews-item .profile-overviews-item-value{
+    font-family: NotoKufiArabic;
+    font-size: 13.9px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: center;
+    color: #3e3f5e;
+}
+.sidebar .profile-overviews .profile-overviews-item .profile-overviews-item-name{
+    font-family: NotoKufiArabic;
+    font-size: 10.9px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.72;
+    letter-spacing: normal;
+    text-align: center;
+    color: #afb0c0;
+}
+.sidebar .sidebar-links{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    align-items: center;
+    margin-top: 20px;
+}
+.sidebar .sidebar-links .sidebar-links-item{
+    width: 90%;
+    display: flex;
+    height: 40px;
+    margin-top: 5px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.sidebar .sidebar-links .sidebar-links-item .link-icon {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    margin-right: 20px;
+}
+.sidebar .sidebar-links .sidebar-links-item .link-name{
+    
+    height: 18px;
+    margin-right: 20px;
+    font-family: NotoKufiArabic;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: right;
+    transition: 0.5s;
+    color: #afb0c0;
+}
+.sidebar .sidebar-links .sidebar-links-item.active {
+    box-shadow: 3px 5.2px 20px 0 rgba(62, 255, 205, 0.3);
+    background-color: #06d6a0;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.sidebar .sidebar-links .sidebar-links-item.active .link-name{
+        font-family: NotoKufiArabic;
+        font-size: 14px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.71;
+        letter-spacing: normal;
+        text-align: right;
+        color: #fefeff;  
+}
