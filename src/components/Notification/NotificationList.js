@@ -63,7 +63,7 @@ export default function NotificationList() {
   
     return (
         <div className="section-content-notifications">
-            {list.length == 0&& <div style={{width:"100%",display:"flex",justifyContent:"center",fontSize:20,alignItems:"center"}}>ليس هنالك إشعارات حاليا</div>}
+            {list.length === 0&& <div style={{width:"100%",display:"flex",justifyContent:"center",fontSize:20,alignItems:"center"}}>ليس هنالك إشعارات حاليا</div>}
             {list.map((notif,index)=>(
                 <div className="notification-card" key={index}>
                     <div>
