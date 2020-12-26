@@ -1,4 +1,5 @@
 import React,{useState} from 'react'
+import { Link } from 'react-router-dom'
 import './Sidebar.css'
 
 const badges =[
@@ -29,26 +30,31 @@ const links =[
         name:"الواجهة الرئيسية",
         src:"/assets/images/newsfeed-icon.png",
         srcSet:"/assets/images/newsfeed-icon@2x.png 2x,/assets/images/newsfeed-icon@3x.png 3x",
+        to:"/landing"
     },
     { 
         name:"الملف الشخصي",
         src:"/assets/images/overview-icon.png",
         srcSet:"/assets/images/overview-icon@2x.png 2x,/assets/images/overview-icon@3x.png 3x",
+        to:"/notification"
     },
     {
         name:"الرسائل",
         src:"/assets/images/quests-icon.png",
         srcSet:"/assets/images/quests-icon@2x.png 2x,/assets/images/quests-icon@3x.png 3x",
+        to:"/messages"
     },
     {
         name:"معلومات الحساب",
         src:"/assets/images/events-icon.png",
         srcSet:"/assets/images/events-icon@2x.png 2x,/assets/images/events-icon@3x.png 3x",
+        to:"/info"
     },
     {
         name:"الإعدادات",
         src:"/assets/images/marketplace-icon.png",
         srcSet:"/assets/images/marketplace-icon@2x.png 2x,/assets/images/marketplace-icon@3x.png 3x",
+        to:"/services"
     }
 ]
 
@@ -99,10 +105,10 @@ export default function Sidebar() {
             <div className="sidebar-links">
                 {
                     links.map((link,index)=>(
-                        <div key={link.name} onClick={()=>setActiveIndex(index)}className={`sidebar-links-item ${activeIndex==index && 'active'}`}>
+                        <Link to={link.to} ey={link.name} onClick={()=>setActiveIndex(index)}className={`sidebar-links-item ${activeIndex==index && 'active'}`}>
                             <span className={`link-name`}>{link.name}</span>
                             <img alt="" src={link.src} srcSet={link.srcSet} className="link-icon"  />
-                        </div>
+                        </Link>
                     ))
                 }
             </div>
