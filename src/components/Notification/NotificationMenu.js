@@ -55,7 +55,7 @@ export default function NotificationMenu() {
                         <div>
                             <div className="options-section-item-2">
                                     { menu.choices.map((choice,indexChoice)=>(
-                                        <span key={indexMenu+indexChoice} onClick={()=>setChoiceActive(indexChoice)} className={`choice-item ${choiceActive ==indexChoice && 'active'}`}>{choice}</span>
+                                        <span key={indexMenu+indexChoice} onClick={()=>setChoiceActive(indexChoice)} className={`choice-item ${choiceActive===indexChoice && 'active'}`}>{choice}</span>
     
                                     ))}
                             </div>

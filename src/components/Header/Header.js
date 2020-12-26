@@ -9,8 +9,8 @@ export default function Header() {
            <div className="divider"></div>
             <HeaderSearch />
             <div className="header-aboutus">
-                <a>خدماتنا</a>
-                <a>من نحن؟</a>
+                <a href="#">خدماتنا</a>
+                <a href="#">من نحن؟</a>
             </div>
             <div className="header-title">
                 <h1>شبكة الباحثين</h1>

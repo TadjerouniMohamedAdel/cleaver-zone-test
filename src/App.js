@@ -6,10 +6,8 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 import About from './components/About/About';
-import { Redirect } from 'react-router-dom/cjs/react-router-dom.min';
 import Services from './components/Services/Services';
 import Landing from './components/Landing/Landing';
 import Info from './components/Info/Info';
