@@ -105,7 +105,7 @@ export default function Sidebar() {
             <div className="sidebar-links">
                 {
                     links.map((link,index)=>(
-                        <Link to={link.to} ey={link.name} onClick={()=>setActiveIndex(index)}className={`sidebar-links-item ${activeIndex==index && 'active'}`}>
+                        <Link key={link.to} to={link.to} ey={link.name} onClick={()=>setActiveIndex(index)}className={`sidebar-links-item ${activeIndex===index && 'active'}`}>
                             <span className={`link-name`}>{link.name}</span>
                             <img alt="" src={link.src} srcSet={link.srcSet} className="link-icon"  />
                         </Link>

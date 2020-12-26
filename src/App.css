@@ -12,3 +12,9 @@
   flex-wrap: wrap;
   justify-content: flex-end;
 }
+@media(max-width:900px){
+  .main{
+      margin-right:0;
+      padding: 10px;
+  }
+}

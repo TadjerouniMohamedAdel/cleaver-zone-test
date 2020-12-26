@@ -29,7 +29,7 @@ export default function NotificationMenu() {
         <div className="options-section">
         {
             menus.map((menu,indexMenu)=>(
-                <div>
+                <div  key={menu.name}>
                     <div className="options-section-item">
                         <h2 className="options-section-item-title">
                             <img 
@@ -55,7 +55,7 @@ export default function NotificationMenu() {
                         <div>
                             <div className="options-section-item-2">
                                     { menu.choices.map((choice,indexChoice)=>(
-                                        <span onClick={()=>setChoiceActive(indexChoice)} className={`choice-item ${choiceActive ==indexChoice && 'active'}`}>{choice}</span>
+                                        <span key={indexMenu+indexChoice} onClick={()=>setChoiceActive(indexChoice)} className={`choice-item ${choiceActive ==indexChoice && 'active'}`}>{choice}</span>
     
                                     ))}
                             </div>

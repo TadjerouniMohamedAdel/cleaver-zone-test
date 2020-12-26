@@ -252,3 +252,25 @@
     border-radius: 50%;
     object-fit: contain;
   }
+  @media(max-width:685px){
+    .group-section{
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      width:100%;
+      margin-top:50px
+    }
+    .group-section .options-section {
+      width: 90%;
+      max-height: 580px !important;
+      margin-bottom: 20px;
+    }
+    .group-section .section-content{
+      display: flex;
+      flex-direction: column;
+      flex: 4;
+      width:90%;
+      margin-right: 0px;
+    }
+   
+}

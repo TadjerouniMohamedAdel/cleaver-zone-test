@@ -62,14 +62,14 @@ export default function NotificationList() {
                         <div className="notification-details">
                                 <span className="notification-action">
                                     {notif.action}
-                                    {notif.reaction=="love"&&(
+                                    {notif.reaction==="love"&&(
                                     <img 
                                         alt=""
                                         src="/assets/images/love.svg"
                                         className="Love"
                                     />
                                     )}
-                                    {notif.reaction=="like"&&(
+                                    {notif.reaction==="like"&&(
                                             <div className="cover-like">
                                             <img
                                                 alt="" 
