@@ -155,6 +155,7 @@
       text-align: left;
       color: #afb0c0;
   }
+  
   .group-section .section-content .section-content-header .header-choice.active{
     color: #3e3f5e;
   }
@@ -175,6 +176,21 @@
     box-shadow: 0 0 40px 0 rgba(94, 92, 154, 0.06);
     background-color: #ffffff;
     margin-bottom: 12px;
+  }
+
+  .group-section .section-content .section-content-notifications .notification-card .close-notif{
+    position: relative;
+    left:10px;
+    top:5px;
+    display: none;
+    transition: 0.5s;
+  }
+  .group-section .section-content .section-content-notifications .notification-card:hover .close-notif{
+    display: block;
+  }
+  .group-section .section-content .section-content-notifications .notification-card .Delete-Icon {
+    width: 15px;
+    height: 15px;
   }
   .group-section .section-content .section-content-notifications .notification-card .notification-content{
     display: flex; 
